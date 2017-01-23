@@ -8,9 +8,13 @@ import bisect
 
 def scatterplot(x,y):
     pyplot.plot(x,y,'b.')
-    pyplot.xlim(min(x)-1,max(x)+1)
-    pyplot.ylim(min(y)-1,max(y)+1)
-    pyplot.show()
+    # plots x and y axes using optional format string 'b.'
+    # format string '.' means marker is a point
+    # 'b' means blue
+    pyplot.xlim(min(x)-1,max(x)+1) #sets max and min on x axis to
+    # have an extra buffer
+    pyplot.ylim(min(y)-1,max(y)+1) #sets max and min on y axis
+    pyplot.show() # displays the figures
 
 def barplot(labels,data):
     pos=arange(len(data))
