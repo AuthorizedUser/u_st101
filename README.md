@@ -1,2 +1,2 @@
 # u_st101
-# Python Statistics and Probability Exercises
+_Python Statistics and Probability Exercises_
